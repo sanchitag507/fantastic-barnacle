@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<style type="text/css">
+		body{background: black;}
+		header{
+			overflow: hidden;
+		}
+		#toph{
+			text-align: center;
+			height: 60px;
+		}
+		#logo{
+			width: 30%;
+			float:left;
+			padding:none;
+			height: 60px;
+			margin: none;
+			background: red;
+		}
+		#logo h2{
+			padding:10px 0px;
+		}
+		#menu{
+			float: right;
+			width:70%;
+			margin: none;
+			height: 60px;
+			background: blue;
+		}
+		#menu ul{
+			float:right;
+			margin:none;
+			text-align: center;
+		}
+		#menu li{
+			display:inline-block;padding:none;margin:none;
+		}
+		#menu li a{
+			color:white;display:inline-block;padding:0em 1.5em;font-weight: 600;line-height: 60px;
+		}
+		#menu li:hover a{
+			background: yellow;
+			color:black;
+		}
+		#about h1{
+			font-size: 70px;
+		}
+		#about h1,#edu h1,#skills h1{
+			color:white;
+			background: black;
+		}
+		#about p{
+			color:black;
+			background: grey;
+			border-radius: 5%;
+			height:99px;
+			font-size: 20px;
+			word-spacing: 5px;
+			letter-spacing: 2px;
+		}
+		#edu div,#skills div{
+			color:black;
+			background: grey;
+			border-radius: 5%;
+		}
+		#edu img,#skills img{
+			border-radius: 50%;
+			width:200px;
+			height:200px;
+		}
+		#details{
+			overflow: hidden;
+			background: lightblue;
+			padding:3em 0em;
+			text-align: center;
+		}
+		footer #col{
+			float :left;
+			width:330px;
+			padding:0px 40px 0px 40px;
+		}
+		footer #icon{
+			display: block;
+			margin-bottom: 1em;
+			font-size: 3em;
+		}
+		#info{
+			overflow: hidden;
+			padding:3em 0em;
+			background: green;
+			text-align: center;
+		}
+		#info a,p{
+			color :white;
+		}
+		#info li{
+			display: inline-block;
+			padding :0em 0.10em;
+			font-size: 2em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="toph">
+			<div id="logo">
+				<h2>I'm Sanchita</h2>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#edu">EDUCATION</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#details">CONTACTS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="about">
+		<h1 align="center"><u>SANCHITA GHOSH</u></h1>
+		<p align="center">Hii..I'm Sanchita.<br>I am a web developer and I love to build websites<br>I am fond of painting.And I am pursuing bachelor of technology in Electronics and Communication Engineering from IIT ISM Dhanbad.</p>
+	</div>
+	<div id="edu">
+	    <h1 align="center"><U>EDUCATION</U></h1>
+	    <div>
+	    	<center><img src="dav.jpeg"></center>
+	    	<h2 align="center">Completed class 10th from D.A.V Public School with CGPA 10.</h2>
+	    </div>
+	    <div>
+	    	<center><img src="dav.jpeg"></center>
+	    	<h2 align="center">Completed class 12th from D.A.V Public School with 94.8%.</h2>
+	    </div>
+	    <div>
+	    	<center><img src="iitism.jpeg"></center>
+	    	<h2 align="center">Currently I am in IIT ISM Dhanbad 1st yr pursuing B.tech in Electronics and Communication.</h2>
+	    </div>
+    </div>
+    <div id="skills">
+    	<h1 align="center"><u>SKILLS</u></h1>
+    	<div>
+    		<center><img src="html.jpeg"></center>
+    		<h2 align="center">HTML</h2>
+    	</div>
+    	<div>
+    		<center><img src="css.jpeg"></center>
+    		<h2 align="center">CSS</h2>
+    	</div>
+    	<div>
+    		<center><img src="js.jpeg"></center>
+    		<h2 align="center">JAVA SCRIPT</h2>
+    	</div>
+    	<div>
+    		<center><img src="c.jpeg"></center>
+    		<h2 align="center">C</h2>
+    	</div>
+    	<div>
+    		<center><img src="cpp.jpeg"></center>
+    		<h2 align="center">C++ </h2>
+    	</div>
+    </div>
+    <footer>
+    	<div id="details">
+    		<div class="row"> 
+            <div id ="col"> 
+                <span id = "icon" class="fa fa-map-marker"></span> 
+                <span>Qtr 341/A1,Koylanagar,Dhanbad</span>
+            </div> 
+                  
+            <div id ="col"> 
+                <span id="icon" class="fa fa-phone"></span> 
+                <span><a href="tel:8918754889" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">Mobile:+91 8918754889</a></span>
+            </div> 
+            <div id ="col"> 
+                <span id="icon" class="fa fa-envelope"></span> 
+                <span><a href="mailto:sanchitag507@gmail.com">sanchitag507@gmail.com</a></span> 
+            </div> 
+            </div>
+        </div> 
+    	<div id="info">
+    		<p align="center" color:white>© All rights reserved|Sanchita Ghosh</p>
+    		<div>
+    			<ul>
+    				<li><a href="https://www.facebook.com/sanchita.ghosh.94009841/" class="fa fa-facebook"><span></span></a></li>
+    				<li><a href="https://www.instagram.com/sanchitag507/?hl=en" class="fa fa-instagram"><span></span></a></li>
+    				<li><a href="#" class="fa fa-twitter"><span></span></a></li>
+    				<li><a href="#" class="fa fa-whatsapp"><span></span></a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </footer>
+
+
+</body>
+</html>
